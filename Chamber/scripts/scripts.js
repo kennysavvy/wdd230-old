@@ -1,4 +1,3 @@
-
 const datefield = document.querySelector(".date");
 const now = new Date();
 
