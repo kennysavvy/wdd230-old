@@ -116,6 +116,7 @@ main{
     background-color:white;
     margin: 10px;
     text-align: center;
+    background-color: #F3E9D2;
 }
 
 button{
@@ -144,7 +145,21 @@ button{
     justify-items: center;
     justify-content: space-evenly;
 }
+h1 {
+    background: -webkit-linear-gradient(45deg, white, gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
 
+  h2 {
+    background: -webkit-linear-gradient(45deg,gold, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
 
 #house-img{
     width: 100%;
@@ -297,7 +312,7 @@ nav ul li.active a {
 }
 
 nav ul li a:hover{
-    background-color: #837198;
+    background-color: #F3E9D2;
     color: white;
 }
 
